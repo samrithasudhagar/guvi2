@@ -8,5 +8,5 @@ for i in range(0,k):
 for i in l:
    
         s=s+str(i)+" "
-print(s)
+print(s.strip())
 	
