@@ -9,3 +9,4 @@ for i in range(0,len(t)):
         print(s[i])
         break
 #i
+#s
