@@ -8,3 +8,4 @@ for i in range(0,len(t)):
     if t[i]==a:
         print(s[i])
         break
+#i
