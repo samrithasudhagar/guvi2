@@ -1,3 +1,4 @@
+n=int(input())
 s=input()
 t=[]
 for i in s:
