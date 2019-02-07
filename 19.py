@@ -3,8 +3,8 @@ l=[]
 flag=1
 a=[]
 s=""
-for i in range(n):
-    for j in range(n):
+for i in range(n+1):
+    for j in range(n+1):
         if i*j==n:
             l.append(i)
 for i in l:
