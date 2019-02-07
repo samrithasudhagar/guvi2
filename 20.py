@@ -1,5 +1,6 @@
 s=input()
 a=""
+k=""
 for i in s:
     if i=="x":
         k="a"
