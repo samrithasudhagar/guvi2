@@ -1,8 +1,5 @@
 s=input()
-k=""
-for i in range(0,len(s)):
-    if s[i]==" " and s[i+1]==" ":
-        k=s.replace(" ","")
-    else:
-        k=s
-print(k)
+for i in range(len(s)-2):
+    if s[i]==' ' and s[i+1]==' ':
+        s=s.replace(" ","")
+print(s)
