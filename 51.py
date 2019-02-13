@@ -7,6 +7,6 @@ for i in range(len(l)):
         min2=l[i]
         break
 for i in range(1,len(l)):
-    if l[i]<min2 and l[i]>min1:
+    if l[i]<min2 and l[i]>=min1:
         min2=l[i]
 print(min2)
