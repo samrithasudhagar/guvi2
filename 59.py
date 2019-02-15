@@ -13,6 +13,7 @@ while i<len(s):
         i=i+1
     else:
         i=i+1
+for i in k:
+    j=j+str(i)+" "
 
-print(k)
-        
+print(j.strip())
