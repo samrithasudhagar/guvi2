@@ -1,0 +1,18 @@
+n=int(input())
+s=input()
+k=""
+p=0
+i=0
+j=""
+while i<len(s):
+    if s[i]=="0" and s[i+1]=="0":
+        i=i+1
+    elif s[i]=="0":
+        k=k+s[p:i]
+        p=i+1
+        i=i+1
+    else:
+        i=i+1
+
+print(k)
+        
