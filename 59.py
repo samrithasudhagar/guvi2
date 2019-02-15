@@ -1,5 +1,9 @@
 n=int(input())
-s=input()
+l=input()
+s=""
+for i in l:
+    if i!=" ":
+        s=s+i
 k=""
 p=0
 i=0
@@ -17,3 +21,5 @@ for i in k:
     j=j+str(i)+" "
 
 print(j.strip())
+        
+        
