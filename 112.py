@@ -1,11 +1,8 @@
-n,k=map(int,input().split())
-l=[int(i) for i in input().split()]
-t=l[0:n]
-s=l[n:]
-l=[]
-for i in t:
-	if i in s:
-		l.append(i)
-		s.remove(i)
-	    
-print(*(l))
+n=int(input())
+l=list(map(int,input().split()))
+c=0
+for i in range(n):
+    for j in range(i+1,n+1):
+        if len(l[i:j])>=1:
+            c=c+1
+print(c)
