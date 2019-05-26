@@ -8,6 +8,9 @@ def catalan(n):
         return(s)
 n=int(input())
 a=[]
-for i in range(n+1):
-    a.append(catalan(i))
-print(*a)
+if n==2:
+    print("1 1")
+else:
+    for i in range(n+1):
+        a.append(catalan(i))
+    print(*a)
